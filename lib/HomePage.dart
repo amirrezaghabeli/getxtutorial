@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               Get.defaultDialog(
                 title: 'dialog',
+              backgroundColor: Colors.white30,
                 middleText: 'this is getx dialog',
               );
             },
